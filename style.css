@@ -24,8 +24,14 @@
 	letter-spacing: 0.4px;
     }
 
-    h2{
-        
+    .center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    p{
+        font-size: 20px;
     }
 
 
@@ -48,4 +54,47 @@
         display:flex;
         justify-content:center;
     }
+
+    header{
+        height: 70vh;
+        margin-bottom: 40px;
+    }
+
+    header h1{
+        color: rgb(255, 255, 255);
+        font-size: 80px;
+        text-shadow: 2px 2px 4px black;
+    }
     
+    .slides{
+        height: 100%;
+        position: relative;
+    }
+
+    .slide{
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        opacity: 0;
+        transition: opacity .5s linear;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .slide.show{
+        opacity: 1;
+    }
+
+    #flower{
+        background-image: url(/flower.jpg);
+    }
+
+    #hand{
+        background-image: url(/hand.jpg);
+    }
+
+    #sky{
+        background-image: url(/sky.jpg);
+    }
