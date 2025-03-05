@@ -1,3 +1,4 @@
+
 window.setInterval(changeSlide, 3000);
 let currentSlide = 0;
 
@@ -15,6 +16,3 @@ function changeSlide() {
   }
   slides[lastSlide].classList.toggle("show");
   slides[currentSlide].classList.toggle("show");
-}
-          
-        
