@@ -27,7 +27,8 @@
     }
 
     h2{
-        
+       font-weight: 300;
+       text-align: center;
     }
 
 
@@ -53,10 +54,18 @@
     }
 
 
-#point{
+#pointz{
+   
     background-color:rgba(255, 255, 255, 0.537);
     padding:60px;
-    display:flex;
-    justify-content:center;
+    margin:0;
+    /* display:flex; */
+    /* justify-content:center; */
+}
+
+#point{
+    background:#f0f2f094;
+    font-weight:300;
+   
 }
     
