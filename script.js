@@ -16,3 +16,4 @@ function changeSlide() {
   }
   slides[lastSlide].classList.toggle("show");
   slides[currentSlide].classList.toggle("show");
+}
