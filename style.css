@@ -255,11 +255,10 @@ font-size:20px;
       }
     
     .maps{
-        margin-right: 1000px;
-        margin-top: 150px;
+        text-align:center;
     }
 
     #location{
-        position: absolute;
-        left: 100px;
+        
+        
     }
