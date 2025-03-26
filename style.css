@@ -166,6 +166,9 @@ font-weight:300;
         color: black;
         font-size: 24px;
     }
+    nav li a:hover{
+        color: white;
+    }
 
 
     #places{
