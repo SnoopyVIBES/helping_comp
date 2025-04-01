@@ -157,6 +157,8 @@ font-size:20px;
         color: beige;
     }
 
+    
+
     nav ul{
         display: flex;
         margin-left: 100px;
@@ -196,9 +198,9 @@ font-size:20px;
     
     }
 
-    #work{
+    /* #work{
         background:#d5b2b2c6;
-    }
+    } */
 
 
 
@@ -258,7 +260,4 @@ font-size:20px;
         text-align:center;
     }
 
-    #location{
-        
-        
-    }
+    
